@@ -10,14 +10,15 @@ const Note = require("./models/Note");
 
 // Initialization of body-parser
 const bodyParser = require("body-parser");
-
-// true -> nested object (correct)
-// false -> nested objects (not correct)
+ 
+// extended true -> nested object (correct)
+// extended false -> nested objects (not correct)
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 const mongodbPath = "mongodb+srv://curiousnation07:abhi1234@cluster0.prk7wha.mongodb.net/notesdb";
 
+// when the mongoose will connect then the app
 mongoose.connect(mongodbPath).then(function () {
   // App Route (/)
   app.get("/", function (req, res) {
