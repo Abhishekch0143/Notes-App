@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# Notes-App
-Django application using Nginx and MySQL 
-=======
-# Simple Notes App for TWS Community
-This is a simple notes app built with React and Django.
+## This is a simple notes app built with React and Django.
 
 ## Requirements
 1. Python 3.9
@@ -13,7 +8,7 @@ This is a simple notes app built with React and Django.
 ## Installation
 1. Clone the repository
 ```
-git clone https://github.com/LondheShubham153/django-notes-app.git
+git clone https://github.com/Abhishekch0143/Notes-App.git
 ```
 
 2. Build the app
@@ -32,4 +27,3 @@ Install Nginx reverse proxy to make this application available
 
 `sudo apt-get update`
 `sudo apt install nginx`
->>>>>>> 62d58fa (First commit Complete notes-app)
